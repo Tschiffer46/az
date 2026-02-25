@@ -93,12 +93,12 @@ export default function DashboardPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <header className="bg-[#1a3a6b] text-white px-4 py-4">
+      <header className="bg-[#1b5e20] text-white px-4 py-4">
         <div className="max-w-5xl mx-auto">
           <div className="flex items-center justify-between mb-3">
             <div>
               <div className="flex items-center gap-2">
-                <div className="w-7 h-7 rounded-lg bg-[#e8c232] text-[#1a3a6b] font-black text-sm flex items-center justify-center">Az</div>
+                <div className="w-7 h-7 rounded-lg bg-white text-[#1b5e20] font-black text-sm flex items-center justify-center">Az</div>
                 <span className="font-bold text-lg">Dashboard</span>
               </div>
               <p className="text-white/60 text-xs mt-0.5">Az Staff — Alla klubbar</p>
@@ -120,7 +120,7 @@ export default function DashboardPage() {
                 key={p}
                 onClick={() => setPeriod(p)}
                 className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
-                  period === p ? 'bg-white text-[#1a3a6b]' : 'bg-white/10 text-white/80 hover:bg-white/20'
+                  period === p ? 'bg-white text-[#1b5e20]' : 'bg-white/10 text-white/80 hover:bg-white/20'
                 }`}
               >
                 {p === 'week' ? 'Vecka' : p === 'month' ? 'Månad' : 'Kvartal'}
@@ -143,7 +143,7 @@ export default function DashboardPage() {
               onClick={() => setActiveTab(tab.id as typeof activeTab)}
               className={`px-4 py-3 text-sm font-medium border-b-2 transition-colors ${
                 activeTab === tab.id
-                  ? 'border-[#1a3a6b] text-[#1a3a6b]'
+                  ? 'border-[#1b5e20] text-[#1b5e20]'
                   : 'border-transparent text-gray-500 hover:text-gray-700'
               }`}
             >
@@ -184,7 +184,7 @@ export default function DashboardPage() {
                       <span className="text-xs text-gray-500 w-24 capitalize">{cat}</span>
                       <div className="flex-1 bg-gray-100 rounded-full h-2.5 overflow-hidden">
                         <div
-                          className="h-full rounded-full bg-[#1a3a6b] transition-all"
+                          className="h-full rounded-full bg-[#1b5e20] transition-all"
                           style={{ width: `${(rev / maxCatRevenue) * 100}%` }}
                         />
                       </div>

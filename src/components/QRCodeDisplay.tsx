@@ -8,7 +8,7 @@ interface QRCodeDisplayProps {
   primaryColor?: string;
 }
 
-export default function QRCodeDisplay({ value, size = 160, label, primaryColor = '#1a3a6b' }: QRCodeDisplayProps) {
+export default function QRCodeDisplay({ value, size = 160, label, primaryColor = '#1b5e20' }: QRCodeDisplayProps) {
   return (
     <div className="flex flex-col items-center gap-2">
       <div className="bg-white p-3 rounded-xl shadow-sm border border-gray-100">
