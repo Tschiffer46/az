@@ -22,7 +22,7 @@ export default function CheckoutPage() {
     return (
       <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center px-4">
         <p className="text-gray-600 mb-4">Din kundvagn är tom</p>
-        <Link href="/store/uppakra-if" className="bg-[#1a3a6b] text-white px-6 py-3 rounded-2xl font-semibold">
+        <Link href="/store/uppakra-if" className="bg-[#1b5e20] text-white px-6 py-3 rounded-2xl font-semibold">
           Tillbaka till butiken
         </Link>
       </div>
@@ -59,7 +59,7 @@ export default function CheckoutPage() {
               <div
                 className={`w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold transition-colors ${
                   s === step
-                    ? 'bg-[#1a3a6b] text-white'
+                    ? 'bg-[#1b5e20] text-white'
                     : s < step
                     ? 'bg-green-500 text-white'
                     : 'bg-gray-200 text-gray-400'
@@ -91,7 +91,7 @@ export default function CheckoutPage() {
                   key={opt.type}
                   onClick={() => setDeliveryType(opt.type)}
                   className={`p-4 rounded-2xl border-2 text-left transition-all ${
-                    deliveryType === opt.type ? 'border-[#1a3a6b] bg-blue-50' : 'border-gray-200 bg-white'
+                    deliveryType === opt.type ? 'border-[#1b5e20] bg-green-50' : 'border-gray-200 bg-white'
                   }`}
                 >
                   <div className="text-2xl mb-2">{opt.icon}</div>
@@ -118,7 +118,7 @@ export default function CheckoutPage() {
                       placeholder={field.placeholder}
                       value={address[field.key as keyof typeof address]}
                       onChange={(e) => setAddress((a) => ({ ...a, [field.key]: e.target.value }))}
-                      className="w-full px-3 py-2.5 rounded-xl border border-gray-200 text-sm focus:outline-none focus:border-[#1a3a6b] transition-colors"
+                      className="w-full px-3 py-2.5 rounded-xl border border-gray-200 text-sm focus:outline-none focus:border-[#1b5e20] transition-colors"
                     />
                   </div>
                 ))}
@@ -139,11 +139,11 @@ export default function CheckoutPage() {
                       placeholder={field.placeholder}
                       value={address[field.key as keyof typeof address]}
                       onChange={(e) => setAddress((a) => ({ ...a, [field.key]: e.target.value }))}
-                      className="w-full px-3 py-2.5 rounded-xl border border-gray-200 text-sm focus:outline-none focus:border-[#1a3a6b] transition-colors"
+                      className="w-full px-3 py-2.5 rounded-xl border border-gray-200 text-sm focus:outline-none focus:border-[#1b5e20] transition-colors"
                     />
                   </div>
                 ))}
-                <div className="bg-blue-50 rounded-xl p-3 text-xs text-blue-700">
+                <div className="bg-green-50 rounded-xl p-3 text-xs text-green-700">
                   📍 Uppåkra IF Klubbhus — Du får en e-post när din beställning är redo för upphämtning.
                 </div>
               </div>
@@ -151,7 +151,7 @@ export default function CheckoutPage() {
 
             <button
               onClick={() => setStep(2)}
-              className="w-full bg-[#1a3a6b] text-white py-4 rounded-2xl font-bold hover:bg-[#152f58] transition-colors"
+              className="w-full bg-[#1b5e20] text-white py-4 rounded-2xl font-bold hover:bg-[#154a19] transition-colors"
             >
               Fortsätt till betalning
             </button>
@@ -184,7 +184,7 @@ export default function CheckoutPage() {
                   key={opt.method}
                   onClick={() => setPaymentMethod(opt.method)}
                   className={`w-full p-4 rounded-2xl border-2 text-left flex items-center gap-4 transition-all ${
-                    paymentMethod === opt.method ? 'border-[#1a3a6b] bg-blue-50' : 'border-gray-200 bg-white'
+                    paymentMethod === opt.method ? 'border-[#1b5e20] bg-green-50' : 'border-gray-200 bg-white'
                   }`}
                 >
                   <span className="text-2xl">{opt.icon}</span>
@@ -197,11 +197,11 @@ export default function CheckoutPage() {
                   </div>
                   <div
                     className={`w-5 h-5 rounded-full border-2 flex items-center justify-center flex-shrink-0 ${
-                      paymentMethod === opt.method ? 'border-[#1a3a6b]' : 'border-gray-300'
+                      paymentMethod === opt.method ? 'border-[#1b5e20]' : 'border-gray-300'
                     }`}
                   >
                     {paymentMethod === opt.method && (
-                      <div className="w-2.5 h-2.5 rounded-full bg-[#1a3a6b]" />
+                      <div className="w-2.5 h-2.5 rounded-full bg-[#1b5e20]" />
                     )}
                   </div>
                 </button>
@@ -226,7 +226,7 @@ export default function CheckoutPage() {
               </button>
               <button
                 onClick={() => setStep(3)}
-                className="flex-2 flex-grow-[2] bg-[#1a3a6b] text-white py-4 rounded-2xl font-bold hover:bg-[#152f58] transition-colors"
+                className="flex-2 flex-grow-[2] bg-[#1b5e20] text-white py-4 rounded-2xl font-bold hover:bg-[#154a19] transition-colors"
               >
                 Granska order
               </button>
@@ -291,7 +291,7 @@ export default function CheckoutPage() {
               <button
                 onClick={handleConfirm}
                 disabled={isProcessing}
-                className="flex-2 flex-grow-[2] bg-[#1a3a6b] text-white py-4 rounded-2xl font-bold hover:bg-[#152f58] transition-colors disabled:opacity-60 flex items-center justify-center gap-2"
+                className="flex-2 flex-grow-[2] bg-[#1b5e20] text-white py-4 rounded-2xl font-bold hover:bg-[#154a19] transition-colors disabled:opacity-60 flex items-center justify-center gap-2"
               >
                 {isProcessing ? (
                   <>

@@ -29,7 +29,7 @@ export default function CartPage() {
           <p className="text-gray-500 mb-6">Utforska sortimentet och hitta något du gillar</p>
           <Link
             href="/store/uppakra-if"
-            className="bg-[#1a3a6b] text-white px-6 py-3 rounded-2xl font-semibold hover:bg-[#152f58] transition-colors"
+            className="bg-[#1b5e20] text-white px-6 py-3 rounded-2xl font-semibold hover:bg-[#154a19] transition-colors"
           >
             Tillbaka till butiken
           </Link>
@@ -123,7 +123,7 @@ export default function CartPage() {
 
         <Link
           href="/checkout"
-          className="mt-4 w-full bg-[#1a3a6b] text-white py-4 rounded-2xl font-bold text-base flex items-center justify-center gap-2 hover:bg-[#152f58] transition-colors active:scale-[0.98]"
+          className="mt-4 w-full bg-[#1b5e20] text-white py-4 rounded-2xl font-bold text-base flex items-center justify-center gap-2 hover:bg-[#154a19] transition-colors active:scale-[0.98]"
         >
           Gå till kassan
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

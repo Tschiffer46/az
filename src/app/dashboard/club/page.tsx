@@ -124,7 +124,7 @@ export default function ClubDashboardPage() {
                 key={p}
                 onClick={() => setPeriod(p)}
                 className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
-                  period === p ? 'bg-white text-[#1a3a6b]' : 'bg-white/10 text-white/80 hover:bg-white/20'
+                  period === p ? 'bg-white text-[#1b5e20]' : 'bg-white/10 text-white/80 hover:bg-white/20'
                 }`}
               >
                 {p === 'week' ? 'Vecka' : p === 'month' ? 'Månad' : 'Kvartal'}
@@ -147,7 +147,7 @@ export default function ClubDashboardPage() {
               onClick={() => setActiveTab(tab.id as typeof activeTab)}
               className={`px-4 py-3 text-sm font-medium border-b-2 transition-colors ${
                 activeTab === tab.id
-                  ? 'text-[#1a3a6b]'
+                  ? 'text-[#1b5e20]'
                   : 'border-transparent text-gray-500 hover:text-gray-700'
               }`}
               style={activeTab === tab.id ? { borderBottomColor: club.primaryColor } : {}}

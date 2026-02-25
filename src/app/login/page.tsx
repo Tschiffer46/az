@@ -31,11 +31,11 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen bg-[#1a3a6b] flex flex-col items-center justify-center px-4">
+    <div className="min-h-screen bg-[#1b5e20] flex flex-col items-center justify-center px-4">
       <div className="w-full max-w-sm">
         {/* Logo */}
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-[#e8c232] text-[#1a3a6b] font-black text-2xl mb-4 shadow-lg">
+          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white text-[#1b5e20] font-black text-2xl mb-4 shadow-lg">
             Az
           </div>
           <h1 className="text-white text-2xl font-bold">Az Dashboard</h1>
@@ -54,7 +54,7 @@ export default function LoginPage() {
                 onChange={(e) => setUsername(e.target.value)}
                 placeholder="admin"
                 autoComplete="username"
-                className="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm focus:outline-none focus:border-[#1a3a6b] transition-colors"
+                className="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm focus:outline-none focus:border-[#1b5e20] transition-colors"
                 required
               />
             </div>
@@ -66,7 +66,7 @@ export default function LoginPage() {
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder="••••••••"
                 autoComplete="current-password"
-                className="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm focus:outline-none focus:border-[#1a3a6b] transition-colors"
+                className="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm focus:outline-none focus:border-[#1b5e20] transition-colors"
                 required
               />
             </div>
@@ -80,7 +80,7 @@ export default function LoginPage() {
             <button
               type="submit"
               disabled={isLoading}
-              className="w-full bg-[#1a3a6b] text-white py-3.5 rounded-xl font-bold text-sm hover:bg-[#152f58] transition-colors disabled:opacity-60 flex items-center justify-center gap-2"
+              className="w-full bg-[#1b5e20] text-white py-3.5 rounded-xl font-bold text-sm hover:bg-[#154a19] transition-colors disabled:opacity-60 flex items-center justify-center gap-2"
             >
               {isLoading ? (
                 <>

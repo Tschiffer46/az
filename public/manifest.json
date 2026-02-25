@@ -4,8 +4,8 @@
   "description": "Official Uppåkra IF merchandise store powered by Az",
   "start_url": "/store/uppakra-if",
   "display": "standalone",
-  "background_color": "#1a3a6b",
-  "theme_color": "#1a3a6b",
+  "background_color": "#1b5e20",
+  "theme_color": "#1b5e20",
   "orientation": "portrait",
   "icons": [
     {

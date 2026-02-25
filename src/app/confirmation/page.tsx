@@ -50,7 +50,7 @@ export default function ConfirmationPage() {
         <div className="space-y-3">
           <Link
             href="/store/uppakra-if"
-            className="w-full bg-[#1a3a6b] text-white py-4 rounded-2xl font-bold flex items-center justify-center hover:bg-[#152f58] transition-colors"
+            className="w-full bg-[#1b5e20] text-white py-4 rounded-2xl font-bold flex items-center justify-center hover:bg-[#154a19] transition-colors"
           >
             Fortsätt handla
           </Link>

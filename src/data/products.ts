@@ -27,7 +27,7 @@ export const products: Product[] = [
     description: 'Classic Clique Basic-T. Comfortable everyday t-shirt with club branding. Made from 100% ring-spun cotton for a soft feel.',
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     variants: [
-      { id: 'navy', name: 'Navy', color: '#1a3a6b' },
+      { id: 'green', name: 'Grön', color: '#1b5e20' },
       { id: 'white', name: 'White', color: '#ffffff' },
       { id: 'black', name: 'Black', color: '#000000' },
     ],
@@ -42,8 +42,8 @@ export const products: Product[] = [
     description: 'Clique Premium-T with superior finish. Moisture-wicking fabric keeps you cool during training sessions.',
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     variants: [
-      { id: 'navy', name: 'Navy', color: '#1a3a6b' },
-      { id: 'yellow', name: 'Yellow', color: '#e8c232' },
+      { id: 'green', name: 'Grön', color: '#1b5e20' },
+      { id: 'black', name: 'Svart', color: '#000000' },
       { id: 'white', name: 'White', color: '#ffffff' },
     ],
     image: '/images/tshirt-premium.svg',
@@ -59,7 +59,7 @@ export const products: Product[] = [
     description: 'Clique Classic Polo shirt. Perfect for match days and club events. Slim fit with club embroidery.',
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     variants: [
-      { id: 'navy', name: 'Navy', color: '#1a3a6b' },
+      { id: 'green', name: 'Grön', color: '#1b5e20' },
       { id: 'white', name: 'White', color: '#ffffff' },
       { id: 'black', name: 'Black', color: '#000000' },
     ],
@@ -74,8 +74,8 @@ export const products: Product[] = [
     description: 'Clique Premium Polo with stretch fabric. Excellent comfort and style for club representatives.',
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     variants: [
-      { id: 'navy', name: 'Navy', color: '#1a3a6b' },
-      { id: 'yellow', name: 'Yellow', color: '#e8c232' },
+      { id: 'green', name: 'Grön', color: '#1b5e20' },
+      { id: 'black', name: 'Svart', color: '#000000' },
     ],
     image: '/images/polo-premium.svg',
   },
@@ -90,7 +90,7 @@ export const products: Product[] = [
     description: 'Clique Basic Hoodie. Warm and cozy with kangaroo pocket and adjustable drawstring.',
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     variants: [
-      { id: 'navy', name: 'Navy', color: '#1a3a6b' },
+      { id: 'green', name: 'Grön', color: '#1b5e20' },
       { id: 'black', name: 'Black', color: '#000000' },
       { id: 'grey', name: 'Grey', color: '#888888' },
     ],
@@ -105,8 +105,8 @@ export const products: Product[] = [
     description: 'Clique Half-Zip Hoodie. Premium fleece with half-zip closure. Perfect for training and casual wear.',
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     variants: [
-      { id: 'navy', name: 'Navy', color: '#1a3a6b' },
-      { id: 'yellow', name: 'Yellow', color: '#e8c232' },
+      { id: 'green', name: 'Grön', color: '#1b5e20' },
+      { id: 'black', name: 'Svart', color: '#000000' },
       { id: 'black', name: 'Black', color: '#000000' },
     ],
     image: '/images/hoodie-halfzip.svg',
@@ -122,7 +122,7 @@ export const products: Product[] = [
     description: 'Clique Softshell Jacket. Wind and water resistant with breathable membrane. Ideal for outdoor training.',
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     variants: [
-      { id: 'navy', name: 'Navy', color: '#1a3a6b' },
+      { id: 'green', name: 'Grön', color: '#1b5e20' },
       { id: 'black', name: 'Black', color: '#000000' },
     ],
     image: '/images/jacket-softshell.svg',
@@ -136,7 +136,7 @@ export const products: Product[] = [
     description: 'Clique Padded Jacket. Warm and lightweight with club branding. Perfect for cold match days.',
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     variants: [
-      { id: 'navy', name: 'Navy', color: '#1a3a6b' },
+      { id: 'green', name: 'Grön', color: '#1b5e20' },
       { id: 'black', name: 'Black', color: '#000000' },
     ],
     image: '/images/jacket-padded.svg',
@@ -152,7 +152,7 @@ export const products: Product[] = [
     description: 'Clique Sweatpants. Comfortable training pants with elastic waistband and side pockets.',
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     variants: [
-      { id: 'navy', name: 'Navy', color: '#1a3a6b' },
+      { id: 'green', name: 'Grön', color: '#1b5e20' },
       { id: 'black', name: 'Black', color: '#000000' },
       { id: 'grey', name: 'Grey', color: '#888888' },
     ],
@@ -167,9 +167,9 @@ export const products: Product[] = [
     description: 'Clique Training Shorts. Lightweight and breathable. Perfect for warm weather training.',
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     variants: [
-      { id: 'navy', name: 'Navy', color: '#1a3a6b' },
+      { id: 'green', name: 'Grön', color: '#1b5e20' },
       { id: 'black', name: 'Black', color: '#000000' },
-      { id: 'yellow', name: 'Yellow', color: '#e8c232' },
+      { id: 'black', name: 'Svart', color: '#000000' },
     ],
     image: '/images/pants-shorts.svg',
   },
@@ -184,7 +184,7 @@ export const products: Product[] = [
     description: 'Clique Club Cap. Adjustable snapback with embroidered club logo. One size fits all.',
     sizes: ['One Size'],
     variants: [
-      { id: 'navy', name: 'Navy', color: '#1a3a6b' },
+      { id: 'green', name: 'Grön', color: '#1b5e20' },
       { id: 'black', name: 'Black', color: '#000000' },
     ],
     image: '/images/acc-cap.svg',
@@ -198,8 +198,8 @@ export const products: Product[] = [
     description: 'Clique Club Beanie. Warm knitted beanie with club colors. Perfect for cold weather.',
     sizes: ['One Size'],
     variants: [
-      { id: 'navy', name: 'Navy', color: '#1a3a6b' },
-      { id: 'yellow', name: 'Yellow', color: '#e8c232' },
+      { id: 'green', name: 'Grön', color: '#1b5e20' },
+      { id: 'black', name: 'Svart', color: '#000000' },
       { id: 'black', name: 'Black', color: '#000000' },
     ],
     image: '/images/acc-beanie.svg',
@@ -213,7 +213,7 @@ export const products: Product[] = [
     description: 'Clique Club Scarf. Jacquard woven scarf with club colors and logo. Essential supporter gear.',
     sizes: ['One Size'],
     variants: [
-      { id: 'navy-yellow', name: 'Navy/Yellow', color: '#1a3a6b' },
+      { id: 'green-black', name: 'Grön/Svart', color: '#1b5e20' },
       { id: 'white-navy', name: 'White/Navy', color: '#ffffff' },
     ],
     image: '/images/acc-scarf.svg',
