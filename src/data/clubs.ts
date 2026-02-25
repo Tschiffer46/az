@@ -15,7 +15,7 @@ export const clubs: Club[] = [
     id: 'uif',
     slug: 'uppakra-if',
     name: 'Uppåkra IF',
-    primaryColor: '#1b5e20',
+    primaryColor: '#217A3F',
     secondaryColor: '#000000',
     logo: '/images/uif-logo.png',
     bannerImage: '/images/uif-banner.jpg',

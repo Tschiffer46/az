@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#f0f7f2" rx="12"/>
+  <!-- Polo shirt shape -->
+  <g fill="#217A3F" opacity="0.9">
+    <!-- Left sleeve (short) -->
+    <polygon points="55,90 105,70 118,108 88,115"/>
+    <!-- Right sleeve (short) -->
+    <polygon points="245,90 195,70 182,108 212,115"/>
+    <!-- Body -->
+    <rect x="88" y="100" width="124" height="130" rx="4"/>
+    <!-- Collar left -->
+    <polygon points="120,65 150,75 140,100 110,90" fill="#1a6333"/>
+    <!-- Collar right -->
+    <polygon points="180,65 150,75 160,100 190,90" fill="#1a6333"/>
+    <!-- Placket -->
+    <rect x="143" y="75" width="14" height="40" rx="2" fill="#1a6333"/>
+  </g>
+  <!-- UIF text on chest -->
+  <text x="150" y="168" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="white">UIF</text>
+</svg>

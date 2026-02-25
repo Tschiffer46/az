@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#f0f7f2" rx="12"/>
+  <!-- Pants shape -->
+  <g fill="#217A3F" opacity="0.9">
+    <!-- Waistband -->
+    <rect x="85" y="70" width="130" height="25" rx="4"/>
+    <!-- Left leg -->
+    <polygon points="85,95 148,95 140,240 80,240"/>
+    <!-- Right leg -->
+    <polygon points="152,95 215,95 220,240 160,240"/>
+    <!-- Crotch gusset -->
+    <path d="M148,95 Q150,130 152,95" stroke="#1a6333" stroke-width="2" fill="none"/>
+  </g>
+  <!-- UIF text on left leg -->
+  <text x="117" y="175" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">UIF</text>
+</svg>

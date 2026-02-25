@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#f0f7f2" rx="12"/>
+  <!-- Hoodie shape -->
+  <g fill="#217A3F" opacity="0.9">
+    <!-- Left sleeve -->
+    <polygon points="45,85 100,65 118,120 85,130"/>
+    <!-- Right sleeve -->
+    <polygon points="255,85 200,65 182,120 215,130"/>
+    <!-- Body -->
+    <rect x="85" y="100" width="130" height="135" rx="4"/>
+    <!-- Hood -->
+    <path d="M110,65 Q150,30 190,65 Q175,60 150,62 Q125,60 110,65 Z" fill="#217A3F" opacity="0.9"/>
+    <!-- Kangaroo pocket -->
+    <rect x="115" y="175" width="70" height="35" rx="6" fill="#1a6333"/>
+  </g>
+  <!-- UIF text on chest -->
+  <text x="150" y="158" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="white">UIF</text>
+</svg>

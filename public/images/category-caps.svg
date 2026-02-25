@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#f0f7f2" rx="12"/>
+  <!-- Cap shape -->
+  <g fill="#217A3F" opacity="0.9">
+    <!-- Cap body -->
+    <path d="M80,170 Q80,100 150,95 Q220,100 220,170 Z"/>
+    <!-- Brim -->
+    <rect x="65" y="165" width="120" height="18" rx="5"/>
+    <!-- Button on top -->
+    <circle cx="150" cy="97" r="8" fill="#1a6333"/>
+    <!-- Sweatband line -->
+    <path d="M80,168 Q150,175 220,168" stroke="#1a6333" stroke-width="3" fill="none"/>
+  </g>
+  <!-- UIF text on front panel -->
+  <text x="162" y="152" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="white">UIF</text>
+</svg>
