@@ -6,8 +6,8 @@
     </linearGradient>
   </defs>
   <rect width="400" height="400" fill="url(#bg)" rx="8"/>
-  <rect x="160" y="120" width="80" height="80" rx="40" fill="#1b5e20" opacity="0.15"/>
-  <text x="200" y="185" font-family="Arial, sans-serif" font-size="48" text-anchor="middle" fill="#1b5e20" opacity="0.6">C</text>
-  <text x="200" y="250" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1b5e20">Sweatpants</text>
-  <text x="200" y="275" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1b5e20" opacity="0.6">Clique</text>
+  <rect x="160" y="120" width="80" height="80" rx="40" fill="#217A3F" opacity="0.15"/>
+  <text x="200" y="185" font-family="Arial, sans-serif" font-size="48" text-anchor="middle" fill="#217A3F" opacity="0.6">C</text>
+  <text x="200" y="250" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#217A3F">Sweatpants</text>
+  <text x="200" y="275" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#217A3F" opacity="0.6">Clique</text>
 </svg>

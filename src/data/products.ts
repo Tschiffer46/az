@@ -27,7 +27,7 @@ export const products: Product[] = [
     description: 'Classic Clique Basic-T. Comfortable everyday t-shirt with club branding. Made from 100% ring-spun cotton for a soft feel.',
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     variants: [
-      { id: 'green', name: 'Grön', color: '#1b5e20' },
+      { id: 'green', name: 'Grön', color: '#217A3F' },
       { id: 'white', name: 'White', color: '#ffffff' },
       { id: 'black', name: 'Black', color: '#000000' },
     ],
@@ -42,7 +42,7 @@ export const products: Product[] = [
     description: 'Clique Premium-T with superior finish. Moisture-wicking fabric keeps you cool during training sessions.',
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     variants: [
-      { id: 'green', name: 'Grön', color: '#1b5e20' },
+      { id: 'green', name: 'Grön', color: '#217A3F' },
       { id: 'black', name: 'Svart', color: '#000000' },
       { id: 'white', name: 'White', color: '#ffffff' },
     ],
@@ -59,7 +59,7 @@ export const products: Product[] = [
     description: 'Clique Classic Polo shirt. Perfect for match days and club events. Slim fit with club embroidery.',
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     variants: [
-      { id: 'green', name: 'Grön', color: '#1b5e20' },
+      { id: 'green', name: 'Grön', color: '#217A3F' },
       { id: 'white', name: 'White', color: '#ffffff' },
       { id: 'black', name: 'Black', color: '#000000' },
     ],
@@ -74,7 +74,7 @@ export const products: Product[] = [
     description: 'Clique Premium Polo with stretch fabric. Excellent comfort and style for club representatives.',
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     variants: [
-      { id: 'green', name: 'Grön', color: '#1b5e20' },
+      { id: 'green', name: 'Grön', color: '#217A3F' },
       { id: 'black', name: 'Svart', color: '#000000' },
     ],
     image: '/images/polo-premium.svg',
@@ -90,7 +90,7 @@ export const products: Product[] = [
     description: 'Clique Basic Hoodie. Warm and cozy with kangaroo pocket and adjustable drawstring.',
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     variants: [
-      { id: 'green', name: 'Grön', color: '#1b5e20' },
+      { id: 'green', name: 'Grön', color: '#217A3F' },
       { id: 'black', name: 'Black', color: '#000000' },
       { id: 'grey', name: 'Grey', color: '#888888' },
     ],
@@ -105,7 +105,7 @@ export const products: Product[] = [
     description: 'Clique Half-Zip Hoodie. Premium fleece with half-zip closure. Perfect for training and casual wear.',
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     variants: [
-      { id: 'green', name: 'Grön', color: '#1b5e20' },
+      { id: 'green', name: 'Grön', color: '#217A3F' },
       { id: 'black', name: 'Svart', color: '#000000' },
       { id: 'black', name: 'Black', color: '#000000' },
     ],
@@ -122,7 +122,7 @@ export const products: Product[] = [
     description: 'Clique Softshell Jacket. Wind and water resistant with breathable membrane. Ideal for outdoor training.',
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     variants: [
-      { id: 'green', name: 'Grön', color: '#1b5e20' },
+      { id: 'green', name: 'Grön', color: '#217A3F' },
       { id: 'black', name: 'Black', color: '#000000' },
     ],
     image: '/images/jacket-softshell.svg',
@@ -136,7 +136,7 @@ export const products: Product[] = [
     description: 'Clique Padded Jacket. Warm and lightweight with club branding. Perfect for cold match days.',
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     variants: [
-      { id: 'green', name: 'Grön', color: '#1b5e20' },
+      { id: 'green', name: 'Grön', color: '#217A3F' },
       { id: 'black', name: 'Black', color: '#000000' },
     ],
     image: '/images/jacket-padded.svg',
@@ -152,7 +152,7 @@ export const products: Product[] = [
     description: 'Clique Sweatpants. Comfortable training pants with elastic waistband and side pockets.',
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     variants: [
-      { id: 'green', name: 'Grön', color: '#1b5e20' },
+      { id: 'green', name: 'Grön', color: '#217A3F' },
       { id: 'black', name: 'Black', color: '#000000' },
       { id: 'grey', name: 'Grey', color: '#888888' },
     ],
@@ -167,7 +167,7 @@ export const products: Product[] = [
     description: 'Clique Training Shorts. Lightweight and breathable. Perfect for warm weather training.',
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
     variants: [
-      { id: 'green', name: 'Grön', color: '#1b5e20' },
+      { id: 'green', name: 'Grön', color: '#217A3F' },
       { id: 'black', name: 'Black', color: '#000000' },
       { id: 'black', name: 'Svart', color: '#000000' },
     ],
@@ -184,7 +184,7 @@ export const products: Product[] = [
     description: 'Clique Club Cap. Adjustable snapback with embroidered club logo. One size fits all.',
     sizes: ['One Size'],
     variants: [
-      { id: 'green', name: 'Grön', color: '#1b5e20' },
+      { id: 'green', name: 'Grön', color: '#217A3F' },
       { id: 'black', name: 'Black', color: '#000000' },
     ],
     image: '/images/acc-cap.svg',
@@ -198,7 +198,7 @@ export const products: Product[] = [
     description: 'Clique Club Beanie. Warm knitted beanie with club colors. Perfect for cold weather.',
     sizes: ['One Size'],
     variants: [
-      { id: 'green', name: 'Grön', color: '#1b5e20' },
+      { id: 'green', name: 'Grön', color: '#217A3F' },
       { id: 'black', name: 'Svart', color: '#000000' },
       { id: 'black', name: 'Black', color: '#000000' },
     ],
@@ -208,12 +208,12 @@ export const products: Product[] = [
     id: 'acc-scarf',
     name: 'Club Scarf',
     brand: 'Clique',
-    category: 'accessories',
+    category: 'scarves',
     price: 179,
     description: 'Clique Club Scarf. Jacquard woven scarf with club colors and logo. Essential supporter gear.',
     sizes: ['One Size'],
     variants: [
-      { id: 'green-black', name: 'Grön/Svart', color: '#1b5e20' },
+      { id: 'green-black', name: 'Grön/Svart', color: '#217A3F' },
       { id: 'white-navy', name: 'White/Navy', color: '#ffffff' },
     ],
     image: '/images/acc-scarf.svg',
@@ -232,12 +232,22 @@ export function getProductsByIds(ids: string[]): Product[] {
   return products.filter((p) => ids.includes(p.id));
 }
 
-export const categories = [
-  { id: 'all', label: 'All' },
-  { id: 't-shirts', label: 'T-Shirts' },
-  { id: 'polo', label: 'Polo' },
-  { id: 'hoodies', label: 'Hoodies' },
-  { id: 'jackets', label: 'Jackets' },
-  { id: 'pants', label: 'Pants' },
-  { id: 'accessories', label: 'Accessories' },
+export interface Category {
+  id: string;
+  label: string;
+  image: string;
+}
+
+export const categories: Category[] = [
+  { id: 't-shirts', label: 'T-shirts', image: '/images/category-tshirts.svg' },
+  { id: 'hoodies', label: 'Huvtröjor', image: '/images/category-hoodies.svg' },
+  { id: 'polo', label: 'Piké', image: '/images/category-polo.svg' },
+  { id: 'jackets', label: 'Jackor', image: '/images/category-jackets.svg' },
+  { id: 'pants', label: 'Byxor', image: '/images/category-pants.svg' },
+  { id: 'accessories', label: 'Kepsar & Mössor', image: '/images/category-caps.svg' },
+  { id: 'scarves', label: 'Halsdukar', image: '/images/category-scarves.svg' },
 ];
+
+export function getCategoryById(id: string): Category | undefined {
+  return categories.find((c) => c.id === id);
+}
