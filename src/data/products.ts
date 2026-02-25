@@ -31,7 +31,7 @@ export const products: Product[] = [
       { id: 'white', name: 'White', color: '#ffffff' },
       { id: 'black', name: 'Black', color: '#000000' },
     ],
-    image: 'https://picsum.photos/seed/tshirt-basic/400/400',
+    image: '/images/tshirt-basic.svg',
   },
   {
     id: 'tshirt-premium',
@@ -46,7 +46,7 @@ export const products: Product[] = [
       { id: 'yellow', name: 'Yellow', color: '#e8c232' },
       { id: 'white', name: 'White', color: '#ffffff' },
     ],
-    image: 'https://picsum.photos/seed/tshirt-premium/400/400',
+    image: '/images/tshirt-premium.svg',
   },
 
   // POLO
@@ -63,7 +63,7 @@ export const products: Product[] = [
       { id: 'white', name: 'White', color: '#ffffff' },
       { id: 'black', name: 'Black', color: '#000000' },
     ],
-    image: 'https://picsum.photos/seed/polo-classic/400/400',
+    image: '/images/polo-classic.svg',
   },
   {
     id: 'polo-premium',
@@ -77,7 +77,7 @@ export const products: Product[] = [
       { id: 'navy', name: 'Navy', color: '#1a3a6b' },
       { id: 'yellow', name: 'Yellow', color: '#e8c232' },
     ],
-    image: 'https://picsum.photos/seed/polo-premium/400/400',
+    image: '/images/polo-premium.svg',
   },
 
   // HOODIES
@@ -94,7 +94,7 @@ export const products: Product[] = [
       { id: 'black', name: 'Black', color: '#000000' },
       { id: 'grey', name: 'Grey', color: '#888888' },
     ],
-    image: 'https://picsum.photos/seed/hoodie-basic/400/400',
+    image: '/images/hoodie-basic.svg',
   },
   {
     id: 'hoodie-halfzip',
@@ -109,7 +109,7 @@ export const products: Product[] = [
       { id: 'yellow', name: 'Yellow', color: '#e8c232' },
       { id: 'black', name: 'Black', color: '#000000' },
     ],
-    image: 'https://picsum.photos/seed/hoodie-halfzip/400/400',
+    image: '/images/hoodie-halfzip.svg',
   },
 
   // JACKETS
@@ -125,7 +125,7 @@ export const products: Product[] = [
       { id: 'navy', name: 'Navy', color: '#1a3a6b' },
       { id: 'black', name: 'Black', color: '#000000' },
     ],
-    image: 'https://picsum.photos/seed/jacket-softshell/400/400',
+    image: '/images/jacket-softshell.svg',
   },
   {
     id: 'jacket-padded',
@@ -139,7 +139,7 @@ export const products: Product[] = [
       { id: 'navy', name: 'Navy', color: '#1a3a6b' },
       { id: 'black', name: 'Black', color: '#000000' },
     ],
-    image: 'https://picsum.photos/seed/jacket-padded/400/400',
+    image: '/images/jacket-padded.svg',
   },
 
   // PANTS
@@ -156,7 +156,7 @@ export const products: Product[] = [
       { id: 'black', name: 'Black', color: '#000000' },
       { id: 'grey', name: 'Grey', color: '#888888' },
     ],
-    image: 'https://picsum.photos/seed/pants-sweatpants/400/400',
+    image: '/images/pants-sweatpants.svg',
   },
   {
     id: 'pants-shorts',
@@ -171,7 +171,7 @@ export const products: Product[] = [
       { id: 'black', name: 'Black', color: '#000000' },
       { id: 'yellow', name: 'Yellow', color: '#e8c232' },
     ],
-    image: 'https://picsum.photos/seed/pants-shorts/400/400',
+    image: '/images/pants-shorts.svg',
   },
 
   // ACCESSORIES
@@ -187,7 +187,7 @@ export const products: Product[] = [
       { id: 'navy', name: 'Navy', color: '#1a3a6b' },
       { id: 'black', name: 'Black', color: '#000000' },
     ],
-    image: 'https://picsum.photos/seed/acc-cap/400/400',
+    image: '/images/acc-cap.svg',
   },
   {
     id: 'acc-beanie',
@@ -202,7 +202,7 @@ export const products: Product[] = [
       { id: 'yellow', name: 'Yellow', color: '#e8c232' },
       { id: 'black', name: 'Black', color: '#000000' },
     ],
-    image: 'https://picsum.photos/seed/acc-beanie/400/400',
+    image: '/images/acc-beanie.svg',
   },
   {
     id: 'acc-scarf',
@@ -216,7 +216,7 @@ export const products: Product[] = [
       { id: 'navy-yellow', name: 'Navy/Yellow', color: '#1a3a6b' },
       { id: 'white-navy', name: 'White/Navy', color: '#ffffff' },
     ],
-    image: 'https://picsum.photos/seed/acc-scarf/400/400',
+    image: '/images/acc-scarf.svg',
   },
 ];
 
