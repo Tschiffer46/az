@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60" width="160" height="60">
+  <!-- Craft logo: bold wordmark with dot pattern -->
+  <text x="10" y="44" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="36" fill="#111111" letter-spacing="2">CRAFT</text>
+  <!-- Dot pattern accent (Craft brand style) -->
+  <circle cx="12" cy="12" r="3" fill="#111111"/>
+  <circle cx="22" cy="12" r="3" fill="#111111"/>
+  <circle cx="32" cy="12" r="3" fill="#111111"/>
+  <circle cx="42" cy="12" r="3" fill="#111111"/>
+</svg>

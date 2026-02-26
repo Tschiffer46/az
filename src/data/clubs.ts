@@ -17,7 +17,7 @@ export const clubs: Club[] = [
     name: 'Uppåkra IF',
     primaryColor: '#217A3F',
     secondaryColor: '#000000',
-    logo: '/images/uif-logo.png',
+    logo: '/images/uif-logo.svg',
     bannerImage: '/images/uif-banner.jpg',
     description: 'Gröna och svarta, stolta och starka — Föreningen för ALLA!',
     activeProductIds: [

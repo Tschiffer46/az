@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useCart } from '@/context/CartContext';
 import { Club } from '@/data/clubs';
 
@@ -17,11 +18,15 @@ export default function Navbar({ club }: NavbarProps) {
     >
       <div className="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
         <Link href={`/store/${club.slug}`} className="flex items-center gap-3">
-          <div
-            className="w-9 h-9 rounded-full flex items-center justify-center text-sm font-bold"
-            style={{ backgroundColor: club.secondaryColor, color: club.primaryColor }}
-          >
-            {club.name.charAt(0)}
+          <div className="relative w-10 h-10 shrink-0">
+            <Image
+              src={club.logo}
+              alt={`${club.name} logo`}
+              fill
+              className="object-contain"
+              sizes="40px"
+              priority
+            />
           </div>
           <span className="text-white font-semibold text-lg leading-tight hidden sm:block">
             {club.name}

@@ -19,9 +19,9 @@ export default function StorefrontClient({ club, products }: StorefrontClientPro
     <div className="min-h-screen" style={{ backgroundColor: '#f0f7f2' }}>
       <Navbar club={club} />
 
-      {/* Hero Banner */}
+      {/* Hero Banner — compact on mobile */}
       <div
-        className="relative flex flex-col items-center justify-center py-12 px-4 text-center"
+        className="relative flex flex-col items-center justify-center py-6 sm:py-10 px-4 text-center"
         style={{
           background: `linear-gradient(160deg, #0d2818 0%, #217A3F 60%, #0d2818 100%)`,
           backgroundImage: `
@@ -38,20 +38,55 @@ export default function StorefrontClient({ club, products }: StorefrontClientPro
             backgroundSize: '18px 18px',
           }}
         />
-        <div className="relative z-10 flex flex-col items-center gap-3">
-          {/* Shield logo placeholder */}
-          <div
-            className="w-20 h-20 rounded-full flex items-center justify-center shadow-xl border-4 border-white/20"
-            style={{ backgroundColor: '#0d2818' }}
-          >
-            <span className="text-white font-black text-xl tracking-tight">UIF</span>
+        <div className="relative z-10 flex flex-col sm:flex-row items-center gap-3 sm:gap-5">
+          {/* UIF shield logo */}
+          <div className="relative w-14 h-16 sm:w-16 sm:h-20 shrink-0 drop-shadow-lg">
+            <Image
+              src={club.logo}
+              alt={`${club.name} logo`}
+              fill
+              className="object-contain"
+              sizes="(max-width: 640px) 56px, 64px"
+              priority
+            />
           </div>
-          <h1 className="text-white text-3xl font-extrabold tracking-tight mt-1">
-            Klubbshop Uppåkra IF
-          </h1>
-          <p className="text-white/80 text-base max-w-sm">
-            {club.description}
+          <div className="text-center sm:text-left">
+            <h1 className="text-white text-2xl sm:text-3xl font-extrabold tracking-tight">
+              Klubbshop Uppåkra IF
+            </h1>
+            <p className="text-white/80 text-sm sm:text-base mt-1">
+              Föreningen för ALLA!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Brand Partners Section */}
+      <div className="bg-white border-b border-gray-100 py-4 px-4">
+        <div className="max-w-5xl mx-auto flex flex-col items-center gap-3">
+          <p className="text-xs text-gray-400 tracking-wide text-center uppercase font-medium">
+            Vi använder oss av kvalitetsprodukter från
           </p>
+          <div className="flex items-center justify-center gap-8 sm:gap-12">
+            <div className="relative w-24 h-9 sm:w-32 sm:h-11 opacity-80 hover:opacity-100 transition-opacity">
+              <Image
+                src="/images/brands/clique-logo.svg"
+                alt="Clique"
+                fill
+                className="object-contain"
+                sizes="(max-width: 640px) 96px, 128px"
+              />
+            </div>
+            <div className="relative w-24 h-9 sm:w-32 sm:h-11 opacity-80 hover:opacity-100 transition-opacity">
+              <Image
+                src="/images/brands/craft-logo.svg"
+                alt="Craft"
+                fill
+                className="object-contain"
+                sizes="(max-width: 640px) 96px, 128px"
+              />
+            </div>
+          </div>
         </div>
       </div>
 
